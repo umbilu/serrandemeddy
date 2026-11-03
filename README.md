@@ -29,6 +29,16 @@ npm run preview
 - `src/components/` — sezioni della pagina (Header, Hero, Products, Services, ...)
 - `src/assets/` — immagini ottimizzate
 
+## Deploy su Render
+
+Il sito è una static site: Render deve servire la cartella `dist` generata
+dalla build, non la root del repository.
+
+- Build Command: `npm ci && npm run build`
+- Publish Directory: `dist`
+
+La configurazione è descritta anche in `render.yaml`.
+
 ## Contatti
 
 - Telefono: 388 474 6201
